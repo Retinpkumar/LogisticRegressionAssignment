@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+        <main>
+            <!-- Container for displaying output -->
+            <div class="container">
+                <div class="row fullContent border border-dark rounded-3 text-center" style="background-color:#E2E4EA";>
+                    <h1>Extra-marital affairs prediction model</h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div align="center" class="col-7 container rightPage  border border-dark rounded-3" style="margin-bottom:50px;">
+                        {% if prediction == 0 %}
+                            <h2>The person with the given inputs does not have any extra marital affairs.</h2>
+                            <br>
+                            <img src="https://images.unsplash.com/photo-1507145569372-d69bae8bc9a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhhcHB5JTIwZG9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Happy"></img>
+                        {% else %}
+                            <h2>Unfortunately, the person with the given inputs have/has had extra marital affairs.</h2>
+                            <br>
+                            <img src="https://images.unsplash.com/photo-1543164888-462c8603cbd9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FkJTIwZG9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sad"></img>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <footer><p>Created by Retin P Kumar © 2021</p></footer>
+        </main>
+{% endblock %}

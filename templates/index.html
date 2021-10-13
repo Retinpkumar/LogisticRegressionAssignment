@@ -1,0 +1,202 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="container">
+            <div class="row fullContent border border-dark rounded-3 text-center" style="background-color:#E2E4EA">
+                <h1>Extra-marital affairs prediction model</h1>
+                <!-- Container for left side column contents -->
+                <div class="col-4 container float-left leftPage  " style="background-color:#E2E4EA;">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <!-- Container for data description -->
+                    <div class="row container leftPageTitle">
+                        <h2>About the data</h2>
+                        <p align="justify">The dataset used in this model is the affairs dataset that comes with
+                            <a href="https://www.statsmodels.org/stable/datasets/generated/fair.html">Statsmodels</a> library.
+                            It was derived from a survey of women in 1974 by Redbook magazine, in  which married women were asked
+                            about their participation in extramarital affairs.
+                        </p>
+                        <p align="justify">
+                            More information about the study is available in a 1978 paper from
+                            the Journal of Political Economy.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="row container">
+                        <h3>Reference</h3>
+                        <a href="https://fairmodel.econ.yale.edu/rayfair/pdf/1978a200.pdf">Theory of extra-marital affairs</a>
+                        <hr>
+                        <hr>
+                    </div>
+                </div>
+                <!-- Container for right side column contents -->
+                <div class="col-7 container rightPage  border border-dark rounded-3">
+                    <br>
+                    <!-- Container for input values -->
+                    <div class="row container rightPageInputs">
+                        <div class="row text-center">
+                            <h2>Enter the input values</h2>
+                        </div>
+                        <!-- Form for collecting input from user -->
+                        <form action="/predict" method="POST">
+                            <br>
+                            <div class="col-12" align="left">
+                                <!-- Input 1 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="occupation">Occupation</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="OCC" id="occupation" name="occupation" type="number" required="required">
+                                            <option value=2 selected hidden>Select an option</option>
+                                            <option value=2>2</option>
+                                            <option value=3>3</option>
+                                            <option value=4>4</option>
+                                            <option value=5>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 2 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="occupation_husband">Occupation of husband</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="OCC_HUS" id="occupation_husband" name="occupation_husband" type="number" required="required">
+                                            <option value=2 selected hidden>Select an option</option>
+                                            <option value=2>2</option>
+                                            <option value=4>4</option>
+                                            <option value=5>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 3 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="marriage">Marriage rating</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="MARRIAGE" id="marriage" name="marriage" type="number" required="required">
+                                            <option value=1 selected hidden>Select an option</option>
+                                            <option value=1>Very Poor</option>
+                                            <option value=2>Poor</option>
+                                            <option value=3>Fair</option>
+                                            <option value=4>Good</option>
+                                            <option value=5>Very Good</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 4 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="age">Age</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="AGE" id="age" name="age" type="number" required="required">
+                                            <option value=17.5 selected hidden>Select an option</option>
+                                            <option value=17.5>Under 20</option>
+                                            <option value=22>20-24</option>
+                                            <option value=27>25-29</option>
+                                            <option value=32>30-34</option>
+                                            <option value=37>35-39</option>
+                                            <option value=42>Above 40</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 5 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="yrs_married">Years married</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="YEARS MARRIED" id="yrs_married" name="yrs_married" type="number" required="required">
+                                            <option value=0.5 selected hidden>Select an option</option>
+                                            <option value=0.5>Less than a year</option>
+                                            <option value=2.5>1-4yrs</option>
+                                            <option value=6>5-7yrs</option>
+                                            <option value=9>8-10yrs</option>
+                                            <option value=13>10yr & Oldest child under 12yrs</option>
+                                            <option value=16.5>10yr & Oldest child between 12 & 17</option>
+                                            <option value=23>10yr & Oldest child 18+</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 6 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="children">Children</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="CHILDREN" id="children" name="children" type="number" required="required">
+                                            <option value=0 selected hidden>Select an option</option>
+                                            <option value=0>None</option>
+                                            <option value=1>1</option>
+                                            <option value=2>2</option>
+                                            <option value=3>3</option>
+                                            <option value=4>4</option>
+                                            <option value=5>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 7 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="religious">How Religious</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="RELIGIOUS" id="religious" name="religious" type="number" required="required">
+                                            <option value=1 selected hidden>Select an option</option>
+                                            <option value=1>Not religious</option>
+                                            <option value=2>Mildly religious</option>
+                                            <option value=3>Fairly religioius</option>
+                                            <option value=4>Strongly religious</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <!-- Input 8 -->
+                                <div class="row">
+                                    <div class="col-5">
+                                        <label for="education">Highest Education</label>
+                                    </div>
+                                    <div class="col-7" align="right">
+                                        <select class="form-select" placeholder="EDUCATION" id="education" name="education" type="number" required="required">
+                                            <option value=9 selected hidden>Select an option</option>
+                                            <option value=9>Grade School</option>
+                                            <option value=12>High School</option>
+                                            <option value=14>Some College</option>
+                                            <option value=16>College Graduate</option>
+                                            <option value=17>Some Graduate School</option>
+                                            <option value=20>Advanced Degree</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                            <!-- Predict Button-->
+                            <div class="row" style="width:100%; height:75px;">
+                                <div class="col">
+                                    <button type="submit" style="width:40%" class="btn btn-primary right">Predict</button>
+                                </div>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer><p>Created by Retin P Kumar © 2021</p></footer>
+    </main>
+{% endblock %}

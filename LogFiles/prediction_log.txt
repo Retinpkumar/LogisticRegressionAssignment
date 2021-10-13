@@ -1,0 +1,404 @@
+
+2021-10-13/22:06:15	Preparing for obtaining user input.'
+
+2021-10-13/22:06:15	Exception occured while obtaining user input. Exception :400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2021-10-13/22:06:15	Failed to obtain user input.
+
+2021-10-13/22:06:15	Preparing for obtaining user input.'
+
+2021-10-13/22:06:15	Exception occured while obtaining user input. Exception :400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2021-10-13/22:06:15	Failed to obtain user input.
+
+2021-10-13/22:09:31	Preparing for obtaining user input.'
+
+2021-10-13/22:09:31	Exception occured while obtaining user input. Exception :400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2021-10-13/22:09:31	Failed to obtain user input.
+
+2021-10-13/22:12:37	Preparing for obtaining user input.'
+
+2021-10-13/22:12:37	Exception occured while obtaining user input. Exception :400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2021-10-13/22:12:37	Failed to obtain user input.
+
+2021-10-13/22:12:37	Preparing for obtaining user input.'
+
+2021-10-13/22:12:37	Exception occured while obtaining user input. Exception :400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+
+2021-10-13/22:12:37	Failed to obtain user input.
+
+2021-10-13/22:16:22	Preparing for obtaining user input.'
+
+2021-10-13/22:16:22	User input obtained successfully.
+
+2021-10-13/22:16:22	Exception occured during creation of 'test.csv'. Exception :name 'occupation' is not defined
+
+2021-10-13/22:16:22	Failed to create 'test.csv'
+
+2021-10-13/22:16:22	Preparing for obtaining user input.'
+
+2021-10-13/22:16:22	User input obtained successfully.
+
+2021-10-13/22:16:22	Exception occured during creation of 'test.csv'. Exception :name 'occupation' is not defined
+
+2021-10-13/22:16:22	Failed to create 'test.csv'
+
+2021-10-13/22:17:17	Preparing for obtaining user input.'
+
+2021-10-13/22:17:17	User input obtained successfully.
+
+2021-10-13/22:17:17	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:17:17	Successfully loaded the scaler file.
+
+2021-10-13/22:17:17	Exception occured while standardizing. Exception :Found array with 0 sample(s) (shape=(0, 35)) while a minimum of 1 is required by StandardScaler.
+
+2021-10-13/22:17:17	Failed to standardize the input data.
+
+2021-10-13/22:18:49	Preparing for obtaining user input.'
+
+2021-10-13/22:18:49	User input obtained successfully.
+
+2021-10-13/22:18:49	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:18:49	Successfully loaded the scaler file.
+
+2021-10-13/22:18:49	Exception occured while standardizing. Exception :Found array with 0 sample(s) (shape=(0, 35)) while a minimum of 1 is required by StandardScaler.
+
+2021-10-13/22:18:49	Failed to standardize the input data.
+
+2021-10-13/22:18:49	Preparing for obtaining user input.'
+
+2021-10-13/22:18:49	User input obtained successfully.
+
+2021-10-13/22:18:49	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:18:49	Successfully loaded the scaler file.
+
+2021-10-13/22:18:49	Exception occured while standardizing. Exception :Found array with 0 sample(s) (shape=(0, 35)) while a minimum of 1 is required by StandardScaler.
+
+2021-10-13/22:18:49	Failed to standardize the input data.
+
+2021-10-13/22:21:15	Preparing for obtaining user input.'
+
+2021-10-13/22:21:15	User input obtained successfully.
+
+2021-10-13/22:21:15	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:21:15	Successfully loaded the scaler file.
+
+2021-10-13/22:21:15	Successfully standardized input data.
+
+2021-10-13/22:21:15	Exception occured while loading the model. Exception :[Errno 2] No such file or directory: 'Model/linear_regression_model.pickle'
+
+2021-10-13/22:21:15	Failed to load the model for prediction.
+
+2021-10-13/22:22:40	Preparing for obtaining user input.'
+
+2021-10-13/22:22:40	User input obtained successfully.
+
+2021-10-13/22:22:40	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:22:40	Successfully loaded the scaler file.
+
+2021-10-13/22:22:40	Successfully standardized input data.
+
+2021-10-13/22:22:40	Successfully loaded the model for prediction.
+
+2021-10-13/22:22:40	Successfully predicted the output.
+
+2021-10-13/22:23:13	Preparing for obtaining user input.'
+
+2021-10-13/22:23:13	User input obtained successfully.
+
+2021-10-13/22:23:13	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:23:13	Successfully loaded the scaler file.
+
+2021-10-13/22:23:13	Successfully standardized input data.
+
+2021-10-13/22:23:13	Successfully loaded the model for prediction.
+
+2021-10-13/22:23:13	Successfully predicted the output.
+
+2021-10-13/22:40:03	Preparing for obtaining user input.'
+
+2021-10-13/22:40:03	User input obtained successfully.
+
+2021-10-13/22:40:03	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:40:03	Successfully loaded the scaler file.
+
+2021-10-13/22:40:03	Successfully standardized input data.
+
+2021-10-13/22:40:03	Successfully loaded the model for prediction.
+
+2021-10-13/22:40:03	Successfully predicted the output.
+
+2021-10-13/22:42:08	Preparing for obtaining user input.'
+
+2021-10-13/22:42:08	User input obtained successfully.
+
+2021-10-13/22:42:08	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:42:08	Successfully loaded the scaler file.
+
+2021-10-13/22:42:08	Successfully standardized input data.
+
+2021-10-13/22:42:08	Successfully loaded the model for prediction.
+
+2021-10-13/22:42:08	Successfully predicted the output.
+
+2021-10-13/22:47:57	Preparing for obtaining user input.'
+
+2021-10-13/22:47:57	User input obtained successfully.
+
+2021-10-13/22:47:57	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:47:57	Successfully loaded the scaler file.
+
+2021-10-13/22:47:57	Successfully standardized input data.
+
+2021-10-13/22:47:57	Successfully loaded the model for prediction.
+
+2021-10-13/22:47:57	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:49:02	Preparing for obtaining user input.'
+
+2021-10-13/22:49:02	User input obtained successfully.
+
+2021-10-13/22:49:02	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:49:02	Successfully loaded the scaler file.
+
+2021-10-13/22:49:02	Successfully standardized input data.
+
+2021-10-13/22:49:02	Successfully loaded the model for prediction.
+
+2021-10-13/22:49:02	Successfully predicted the output.
+
+2021-10-13/22:55:44	Preparing for obtaining user input.'
+
+2021-10-13/22:55:44	User input obtained successfully.
+
+2021-10-13/22:55:44	Successfully converted User input to 'test.csv'.
+
+2021-10-13/22:55:44	Successfully loaded the scaler file.
+
+2021-10-13/22:55:44	Successfully standardized input data.
+
+2021-10-13/22:55:44	Successfully loaded the model for prediction.
+
+2021-10-13/22:55:44	Successfully predicted the output.
+
+2021-10-13/23:20:10	Preparing for obtaining user input.'
+
+2021-10-13/23:20:10	User input obtained successfully.
+
+2021-10-13/23:20:10	Successfully converted User input to 'test.csv'.
+
+2021-10-13/23:20:10	Successfully loaded the scaler file.
+
+2021-10-13/23:20:10	Successfully standardized input data.
+
+2021-10-13/23:20:10	Successfully loaded the model for prediction.
+
+2021-10-13/23:20:10	Successfully predicted the output.
+
+2021-10-13/23:21:23	Preparing for obtaining user input.'
+
+2021-10-13/23:21:23	User input obtained successfully.
+
+2021-10-13/23:21:23	Successfully converted User input to 'test.csv'.
+
+2021-10-13/23:21:23	Successfully loaded the scaler file.
+
+2021-10-13/23:21:23	Successfully standardized input data.
+
+2021-10-13/23:21:23	Successfully loaded the model for prediction.
+
+2021-10-13/23:21:23	Successfully predicted the output.
+
+2021-10-13/23:21:23	Preparing for obtaining user input.'
+
+2021-10-13/23:21:23	User input obtained successfully.
+
+2021-10-13/23:21:23	Successfully converted User input to 'test.csv'.
+
+2021-10-13/23:21:23	Successfully loaded the scaler file.
+
+2021-10-13/23:21:23	Successfully standardized input data.
+
+2021-10-13/23:21:23	Successfully loaded the model for prediction.
+
+2021-10-13/23:21:23	Successfully predicted the output.
